@@ -1,9 +1,10 @@
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
+  background-color: #ffffff;
 }
 
 title,
@@ -29,18 +30,25 @@ ul {
   list-style: none;
 }
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  color: #2e2f42;
-  text-decoration: none;
-}
-.logo-first-part {
   color: #4d5ae5;
+  text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-second-part {
+  color: #2e2f42;
 }
 .nav-list > ul {
   list-style: none;
+}
+.list {
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .nav-list > ul > li > a {
   text-decoration: none;
@@ -54,40 +62,86 @@ ul {
 .nav-list > ul > li > a:focus {
   text-decoration: underline;
 }
-
-address > ul {
+.contacts_info {
+  font-style: normal;
+}
+.contacts_info > ul {
   list-style: none;
 }
 .contacts {
   text-decoration: none;
   color: #434455;
+  letter-spacing: 0.02em;
 }
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
-
-.order-block {
+.main-top-block {
   background-color: #2e2f42;
 }
-
-button {
-  width: 169px;
-  height: 56px;
+.main-title {
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.order-button {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: white;
   background-color: #4d5ae5;
   letter-spacing: 4%;
-  border-radius: 4px;
+  cursor: pointer;
 }
-button:hover {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
+.value-title,
+.value-text {
+  letter-spacing: 0.02em;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-core-title {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+  background-color: #ffffff;
+}
+.team-title {
+  letter-spacing: 0.02em;
+}
+.team-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.portfolio-core-title {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-title,
+.portfolilo-text {
+  letter-spacing: 0.02em;
+}
 
-footer {
+.footer-section {
   background-color: #2e2f42;
 }
-footer > .logo {
+
+.footer-section > .logo > .logo-second-part {
   color: #f4f4fd;
 }
-footer > p {
+.footer-text {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
