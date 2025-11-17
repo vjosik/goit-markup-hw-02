@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -30,7 +30,7 @@ ul {
   list-style: none;
 }
 .logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
@@ -86,7 +86,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .order-button {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
